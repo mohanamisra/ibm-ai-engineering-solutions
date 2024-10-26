@@ -1,0 +1,7 @@
+ea = float(input("entropy a?"))
+eb = float(input("entropy b?"))
+pa = float(input("probability of a?"))
+pb = float(input("probability of b?"))
+tot = float(input("total entropy?"))
+ig = tot - (pa*ea + pb*eb)
+print(ig)
